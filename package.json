@@ -4,7 +4,7 @@
   "description": "https://kilihbr.github.io",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css --watch"
+    "dev": "npx tailwindcss -i ./src/styles/tailwind.css -o ./dist/tailwind.css --watch"
   },
   "repository": {
     "type": "git",
