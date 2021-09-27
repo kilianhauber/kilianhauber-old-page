@@ -1,0 +1,24 @@
+{
+  "name": "kilihbr.github.io",
+  "version": "1.0.0",
+  "description": "https://kilihbr.github.io",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kilihbr/kilihbr.github.io.git"
+  },
+  "author": "kilihbr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kilihbr/kilihbr.github.io/issues"
+  },
+  "homepage": "https://github.com/kilihbr/kilihbr.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.6",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.16"
+  }
+}
