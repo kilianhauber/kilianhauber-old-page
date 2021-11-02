@@ -27,7 +27,7 @@
 
 <body class="bg-darkblue text-gray-200 font-nunito">
 
-    <header class="bg-mainblue">
+    <header class="fixed flex-wrap w-full z-10 bg-mainblue">
         <div class="py-4 flex justify-center">
             <img class="inline-block justify-start rounded-full md:h-12 h-8" src="/src/img/kilihbr.png"
                 alt="kilihbr Kilian Hauber">
@@ -37,10 +37,11 @@
         </div>
     </header>
 
+
     <main>
         <div class="min-h-screen xl:px-24 md:px-10 p-8">
 
-            <div class="xl:pt-14 pt-1">
+            <div class="md:pt-20 pt-14">
                 <div class="grid grid-cols-2 gap-2">
                     <div class="col-span-2 lg:col-span-1">
                         <h2 class="md:text-4xl text-3xl font-delagothicone md:py-10 py-4 text-ultrablue">
@@ -50,13 +51,15 @@
                             ein Gymnasium in Baden-Württemberg.
                             Nebenbei bin ich auch freiberuflicher Entwickler und UI/UX Designer. Derzeit baue ich eine
                             Firma
-                            namens <a class="underline" href="https://zyonicsoftware.com">Zyonic Software</a> zusammen
+                            namens <a class="underline" href="https://zyonicsoftware.com" target="_blank">Zyonic
+                                Software</a> zusammen
                             mit
                             ein paar anderen Leuten auf.
                         </p>
                         <br>
                         <p class="md:text-xl text-md">
-                            Falls Sie sich fragen, warum <a class="underline" href="https://github.com/kilihbr">mein
+                            Falls Sie sich fragen, warum <a class="underline" href="https://github.com/kilihbr"
+                                target="_blank">mein
                                 GitHub Account</a> noch so leer ist: Ich arbeite meistens an
                             Projekten, welche privat sind oder auf unserem Zyonic GitLab Server liegen. Ich poste auf
                             GitHub nur
@@ -64,12 +67,14 @@
                         </p>
                         <br>
                         <p class="md:text-xl text-md">
-                            Derzeit arbeite ich an einem Java-Discord-Bot, der <a class="underline" href="https://herukan.xyz">Herukan</a> heißt. Meine Hauptarbeit ist im
+                            Derzeit arbeite ich an einem Java-Discord-Bot, der <a class="underline"
+                                href="https://herukan.xyz" target="_blank">Herukan</a> heißt. Meine Hauptarbeit ist im
                             Moment die Entwicklung des Frontends eines Web-Dashboards.
                         </p>
                     </div>
                     <div class="col-span-2 lg:col-span-1">
-                        <img class="xl:p-32 p-10 md:pt-32" src="/src/img/undraw1.svg" alt="kilihbr Kilian Hauber">
+                        <img class="xl:p-32 p-10 md:pt-32" src="/src/img/undraw/undraw1.svg"
+                            alt="kilihbr Kilian Hauber">
                     </div>
                 </div>
             </div>
@@ -83,8 +88,7 @@
                         <img class="h-10" src="/src/img/skills/figma.png" alt="Figma kilihbr Kilian Hauber">
                     </div>
                     <div class="col-span-1">
-                        <img class="h-10" src="/src/img/skills/intellij.png"
-                            alt=" IntelliJ kilihbr Kilian Hauber">
+                        <img class="h-10" src="/src/img/skills/intellij.png" alt=" IntelliJ kilihbr Kilian Hauber">
                     </div>
                     <div class="col-span-1">
                         <img class="h-10" src="/src/img/skills/java.png" alt="Java kilihbr Kilian Hauber">
@@ -96,35 +100,93 @@
                         <img class="h-10" src="/src/img/skills/vsc.png" alt="VSC kilihbr Kilian Hauber">
                     </div>
                     <div class="col-span-1">
-                        <img class="h-10" src="/src/img/skills/tailwindcss.png"
-                            alt="Tailwindcss kilihbr Kilian Hauber">
+                        <img class="h-10" src="/src/img/skills/tailwindcss.png" alt="Tailwindcss kilihbr Kilian Hauber">
                     </div>
                     <div class="col-span-1">
-                        <img class="h-10" src="/src/img/skills/git.png"
-                            alt="Tailwindcss kilihbr Kilian Hauber">
+                        <img class="h-10" src="/src/img/skills/git.png" alt="Tailwindcss kilihbr Kilian Hauber">
                     </div>
                     <div class="col-span-1">
-                        <img class="h-10" src="/src/img/skills/reactjs.png"
-                            alt="Tailwindcss kilihbr Kilian Hauber">
+                        <img class="h-10" src="/src/img/skills/reactjs.png" alt="Tailwindcss kilihbr Kilian Hauber">
                     </div>
                     <div class="col-span-1">
-                        <img class="h-10" src="/src/img/skills/mysql.png"
-                            alt="Tailwindcss kilihbr Kilian Hauber">
+                        <img class="h-10" src="/src/img/skills/mysql.png" alt="Tailwindcss kilihbr Kilian Hauber">
                     </div>
                 </div>
             </div>
             <div class="border-t-2 border-mainblue ">
-                <div class="py-10">
-                    Hello World!
-
+                <div class="pb-10 pt-20">
+                    <div class="flex justify-center pb-10">
+                        <h3 class="text-3xl font-delagothicone py-4">Meine aktuellen Projekte</h3>
+                    </div>
+                    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8">
+                        <div class="col-span-1">
+                            <div class="bg-mainblue rounded-3xl p-6">
+                                <div class="flex">
+                                    <img class="fill-current text-green-600 h-8 inline-block"
+                                        src="/src/img/project-logos/herukan-logo.png"
+                                        alt="Herukan Logo Discord Bot kilihbr Kilian Hauber">
+                                    <h4 class="inline-block text-2xl font-extrabold pb-2 px-2">Herukan Bot</h4>
+                                </div>
+                                <p class="text-lightgray">Herukan Discord Bot ist ein geeigneter Bot für jeden
+                                    Discord-Server. Er kann sowohl moderieren als auch für Unterhaltung in Ihrer
+                                    Community sorgen. Der Bot wurde in der Programmiersprache Java entwickelt und
+                                    basiert auf der MaddoxEngine. Der Bot wird auf unseren eigenen Zyonic Software
+                                    Servern gehostet.</p>
+                            </div>
+                        </div>
+                        <div class="col-span-1">
+                            <div class="bg-mainblue rounded-3xl p-6">
+                                <div class="flex">
+                                    <img class="fill-current text-green-600 h-8 inline-block"
+                                        src="/src/img/project-logos/herukan-logo.png"
+                                        alt="Herukan Logo Discord Bot kilihbr Kilian Hauber">
+                                    <h4 class="inline-block text-2xl font-extrabold pb-2 px-2">Herukan Dashboard</h4>
+                                </div>
+                                <p class="text-lightgray">Mit Hilfe des neuen Herukan Web Dashboards ist es sehr
+                                    einfach, den Herukan Discord Bot so einzurichten, dass er zu Ihrem Community Discord
+                                    Server passt. Die Oberfläche des Dashboards ist einfach und benutzerfreundlich
+                                    gestaltet. Derzeit wird das Dashboard noch entwickelt. Für Neuigkeiten besuchen Sie bitte die Herukan Website.</p>
+                            </div>
+                        </div>
+                        <div class="col-span-1">
+                            <div class="bg-mainblue rounded-3xl p-6">
+                                <div class="flex">
+                                    <img class="fill-current text-green-600 h-8 inline-block"
+                                        src="/src/img/project-logos/restapis-logo.png"
+                                        alt="Herukan Logo Discord Bot kilihbr Kilian Hauber">
+                                    <h4 class="inline-block text-2xl font-extrabold pb-2 px-2">Rest Apis</h4>
+                                </div>
+                                <p class="text-lightgray">Wenn Sie auf der Suche nach neuen Rest-Apis sind, sind Sie
+                                    hier an
+                                    der richtigen Stelle. Ich habe eine Website erstellt, auf der Sie eine Menge
+                                    kostenloser Apis finden können. Es gibt Apis in jeder Kategorie. Und wenn keine
+                                    passenden dabei sind, können Sie gerne einen Vorschlag auf der Website machen.
+                                    Schauen Sie einfach mal rein.</p>
+                            </div>
+                        </div>
+                        <div class="col-span-1">
+                            <div class="bg-mainblue rounded-3xl p-6">
+                                <div class="flex">
+                                    <img class="fill-current text-green-600 h-7 inline-block"
+                                        src="/src/img/project-logos/ui-rocket-logo.png"
+                                        alt="Herukan Logo Discord Bot kilihbr Kilian Hauber">
+                                    <h4 class="inline-block text-2xl font-extrabold pb-2 px-2">UI Rocket</h4>
+                                </div>
+                                <p class="text-lightgray">UI Rocket ist ein kleines freiberufliches
+                                    UI/UX-Design-Unternehmen. Es wird von Conrad Böhnke und Kilian Hauber verwaltet und
+                                    geleitet. Unser Spezialgebiet ist die Gestaltung von User-Interface PWA Designs, die
+                                    sowohl für den Desktop als auch für Mobiltelefone optimiert sind.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
     </main>
 
     <footer class="justify-center text-center p-6 border-t-2 border-mainblue">
-        <p class="text-gray-400 text-sm">Copyright © 2021 Kilian Hauber | <a class="hover:underline" href="/version">v1.0.3</a></p>
+        <p class="text-gray-400 text-sm">Copyright © 2021 Kilian Hauber | <a class="hover:underline"
+                href="/version">v1.0.3</a></p>
     </footer>
 
 </body>
